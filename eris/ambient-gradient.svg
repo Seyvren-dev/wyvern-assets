@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="blurA" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="86"/>
+    </filter>
+    <radialGradient id="g1">
+      <stop offset="0" stop-color="#6d9b82" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#6d9b82" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2">
+      <stop offset="0" stop-color="#5e7897" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#5e7897" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3">
+      <stop offset="0" stop-color="#b79858" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#b79858" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="420" fill="#090a0b"/>
+  <g filter="url(#blurA)">
+    <circle cy="105" r="260" fill="url(#g1)">
+      <animate attributeName="cx" values="170;340;170" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="90;145;90" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cy="145" r="295" fill="url(#g2)">
+      <animate attributeName="cx" values="950;760;950" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="130;80;130" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle cy="355" r="230" fill="url(#g3)">
+      <animate attributeName="cx" values="650;820;650" dur="22s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="360;305;360" dur="17s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect width="1200" height="420" fill="none" stroke="#1d2225" stroke-opacity=".35"/>
+</svg>
