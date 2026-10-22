@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+  <circle cx="16" cy="16" r="6" fill="#a5c5aa" opacity=".18" filter="url(#glow)">
+    <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".12;.55;.12" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="16" cy="16" r="3.3" fill="#aed3b5">
+    <animate attributeName="r" values="3.1;4.1;3.1" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".65;1;.65" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
